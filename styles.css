@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size:22px;
+    color:seashell;
+    opacity: .9;
+    margin: 10px;
+}
+
+header{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo{
+    max-height: 50px;
+}
+
+.header-menu{
+    text-align: right;
+    text-decoration: underline;
+    display:inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+.banner{
+    background-image: url("./assets/img/img-mission-background.jpg");
+   padding-top: 300px;
+   padding-bottom: 300px;
+}
+
+.banner-text{
+    background-color: black;
+    width: 1200px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.Tea-Month{
+    text-align: center;
+}
+
+.img-list{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.img-list > img{
+    max-height: 200px;
+    max-width: 300px;
+}
+
+.locations{
+    background-image: url("./assets/img/img-locations-background.jpg");
+    height: 500px;
+}
+
+li+li{
+    margin-left: 20px;
+}
+
+.txt-list{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    height: 200px;
+}
+
+.tm{
+    text-align: left;
+}
